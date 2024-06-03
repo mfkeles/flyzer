@@ -1,0 +1,5 @@
+EasyPySpin==2.0.1
+imageio_ffmpeg==0.4.9
+nidaqmx==0.9.0
+numpy==1.26.4
+pandas==2.2.2

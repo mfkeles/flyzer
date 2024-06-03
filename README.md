@@ -1,6 +1,6 @@
-# flyzer
+# Flyzer
 
-flyzer is a Python package designed to test arousal levels of a sleeping fly. It has two main components: the experimental part, which includes hardware and software control, and the data analysis part, which focuses on processing and analyzing the generated data.
+Flyzer is a Python package designed to test arousal levels of a sleeping fly. It has two main components: the experimental part, which includes hardware and software control, and the data analysis part, which focuses on processing and analyzing the generated data.
 
 ## Experimental Part
 
@@ -21,3 +21,28 @@ The data analysis part of Flyzer focuses on processing and analyzing the generat
 - Data visualization
 - Statistical analysis
 - Breakpoint detection
+
+## Requirements
+
+* PySpin matching the Python version
+  * Download Spinnaker SDK from [here](https://www.flir.com/support-center/iis/machine-vision/downloads/spinnaker-sdk-and-firmware-download/).
+* OpenCV
+
+## Installation
+
+### Using Conda
+
+To create a new conda environment and install the required dependencies, follow these steps:
+
+1. **Create a conda environment:**
+   ```bash
+   conda env create -n flyzer python=3.8
+   ```
+2. **Activate the conda environment:**
+  ```bash
+  conda activate flyzer
+  ```
+3. **Install dependencies:**
+  ```bash
+  pip install -r requirements.txt
+  ```
