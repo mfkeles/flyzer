@@ -35,9 +35,9 @@ The data analysis part of Flyzer focuses on processing and analyzing the generat
 To create a new conda environment and install the required dependencies, follow these steps:
 
 1. **Create a conda environment:**
-   ```bash
-   conda env create -n flyzer python=3.8
-   ```
+  ```bash
+  conda env create -n flyzer python=3.8
+  ```
 2. **Activate the conda environment:**
   ```bash
   conda activate flyzer
@@ -46,3 +46,10 @@ To create a new conda environment and install the required dependencies, follow 
   ```bash
   pip install -r requirements.txt
   ```
+
+## Usage
+
+Modify the desired variables in `closedLoopArousal.py` and run
+```bash
+python closedLoopArousal.py
+```
